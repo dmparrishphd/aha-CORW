@@ -1,0 +1,42 @@
+A BNF for AHA File Paths
+------------------------
+
+                </> ::=
+                        <path separator. The corresponding char-
+                        acter sequence is file-system--dependent.
+                        The solidus (a.k.a. "slash") and reverse
+                        solidus (a.k.a. "backslash") characters
+                        are in common use as of 2021 A.D.>
+
+                <terminal-node--label> ::= 0
+
+                    ;   Thus, AHA requires that 0 is a valid
+                    ;   directory name.
+
+                <non-terminal--node---label> ::=
+                        1 | 2 | 3 | 4 | 5 | 6 | 7
+
+                    ;   In other words: a non-zero, octal digit.
+                    ;   Thus, AHA requires that such are a valid
+                    ;   directory names.
+
+                <root-label> ::=
+                        <any valid directory name that is not a
+                        <terminal-node--label> or a <non-terminal--
+                        node---label>>
+
+                <path-infix> ::= </> <non-terminal--node---label>
+
+                <path-suffix> ::= </> 0
+
+                <> ::= <no text>
+
+                <path-joinderer> ::= <> | <path-infix> <path-joinderer>
+
+                    ;   For a partial explanation of the
+                    ;   selection of the metasyntactic variable
+                    ;   <path-joinderer>, see common definitions
+                    ;   of "joinder" and the suffix "-er."
+
+                <aha-path> ::=
+                        <root-label> <path-joinderer> <path-suffix>
