@@ -1,0 +1,30 @@
+The Design of AHA
+-----------------
+
+    Constraints
+    -----------
+
+                Design constraints for AHA include:
+
+                    -   There should be an obvious, systematic,
+                        simple way to specify the file path for
+                        a new directory; it should be easy to
+                        write a short program to manage this; it
+                        should be easy a typical user to carry
+                        out the corresponding steps manually.
+
+                    -   File paths should be chosen from a well-
+                        defined sequence.
+
+                    -   File paths should be polite; we should
+                        not have file paths like:
+
+                                KIM/JONG-UN/IS/A/(CENSORED)
+
+                        because that would be mean.
+
+                    -   There should not be too many items in a
+                        directory: it should not be hard for the
+                        file system to list all the items in a
+                        directory, nor for a human user to read
+                        said list in its entirety.
