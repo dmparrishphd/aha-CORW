@@ -1,0 +1,45 @@
+Introduction
+------------
+
+                This paper introduces AHA, an antihierarchical
+                workflow for filing in hierarchical file
+                systems.
+
+                By "file system," we have in mind, for example,
+                [NTFS]. In such systems, files may be (and often
+                are) organized into directories (a.k.a.
+                "folders"). Except for the "root directory",
+                every file and directory is inside, and
+                conceptually under another directory; This is
+                what we mean by "hierarchical."
+
+                We say "antihierarchical" because although many
+                file systems impose or strongly encourage a
+                hierarchical structure:
+
+                    -   for a given collection, there is
+                        generally no objective way to organize
+                        the members of the collection into a
+                        specific hierarchy ([DEWEY] and [LOC]
+                        are two among many ways to organize
+                        books into a hierarchy). And
+
+                    -   some collections are inherently
+                        non-hierarchical (e.g., tally marks
+                        which might indicate a score in a game;
+                        issues of a newspaper form a sequence).
+
+                Therefore, AHA is a workflow which utilizes a
+                hierarchical file system so as to store files in
+                a conceptually non-hierarchical manner.
+
+    References for the Introduction
+    -------------------------------
+
+                [NTFS] (forthcoming)
+
+                [DEWEY] (forthcoming: reference for the Dewey
+                        Decimal System)
+
+                [LOC] (forthcoming reference for the Library of
+                        Congress cataloging system)
