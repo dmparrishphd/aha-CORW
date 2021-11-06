@@ -1,0 +1,19 @@
+Discussion
+----------
+
+    Path Length
+    -----------
+
+                AHA supports more paths than the number of
+                protons in or on planet Earth.
+
+                Path length is constrained on many file systems
+                in current use. For reference, some tar file
+                formats easily support path prefixes (the part
+                of the path excluding the final part) of 128
+                bytes. This would allow for about 64 levels of
+                AHA path-infixes (each infix takes two bytes,
+                one for the path separator and one for a digit),
+                implying about 7 ^ 64 = 1.2 x 10 ^ 54 paths,
+                about a thousand times as many as the number of
+                protons found in or on planet Earth.
