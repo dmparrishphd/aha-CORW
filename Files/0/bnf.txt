@@ -17,7 +17,7 @@ A BNF for AHA File Paths
                         1 | 2 | 3 | 4 | 5 | 6 | 7
 
                     ;   In other words: a non-zero, octal digit.
-                    ;   Thus, AHA requires that such are a valid
+                    ;   Thus, AHA requires that such are valid
                     ;   directory names.
 
                 <root-label> ::=
