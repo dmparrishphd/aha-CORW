@@ -1,0 +1,29 @@
+Rules
+=====
+
+Directories
+-----------
+
+                A directory is a member of an AHA tree if:
+
+                    -   it is identified as the "root" of an AHA
+                        tree or
+
+                    -   all of the following conditions hold:
+
+                        -   its name is among { 0 1 2 3 4 5 6 7 },
+
+                        -   all of its intermediate ancestor
+                            directories have names among { 1 2 3
+                            4 5 6 7 }, and
+
+                        -   it has exactly one ancestor
+                            directory identified as the root of
+                            an AHA tree.
+
+Non-Directories
+---------------
+
+                A non-directory file system object is a member
+                of an AHA tree if its location is a directory
+                that is a member of an AHA tree.
